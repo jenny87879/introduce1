@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <title>introduce</title>
+    <link rel="stylesheet" href="index.css">
+    
+
+</head>
+
+<body>
+    <nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+        <ul style="float: right;">
+            <li><a href="">About me</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="bulls_and_cows.html">숫자야구</a></li>
+        </ul>
+	</ul>
+    </nav>
+    <!--
+    <div class="wrap">
+        <h1 id="question">숫자야구</h1>
+        <div id="result"></div>
+        <form id="input_form"> 
+            <input id="input" type="text" maxlength="4" minlength="4" placeholder="4자리 숫자를 입력하세요.">
+            <button id="submit">submit</button>
+        </form>
+        <div>
+            <span>남은 기회:</span>
+            <span id="chance"></span>
+        </div>
+    </div>
+    -->
+    <section id="game">
+        <div class="game__field">
+            <h1 style="text-align: center;">숫자야구 게임</h1>
+            <h2>결과: <span class="result"></span></h2>
+            <h2>남은 기회: <span class="turn"></span></h2>
+            <form>
+                <input type="text" minlength="4" maxlength="4">
+                <button> 입력 </button>
+            </form>
+            <button class="start"> 게임시작 </button>
+            <div class="list"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="bulls_and_cows.js"></script>    
+</body>
+</html>
